@@ -12,9 +12,7 @@ public class MinDiapason {
 
         for (int i = start; i <= finish; i++) {
             if (min > array[i]) {
-                int temp = min;
                 min = array[i];
-                array[i] = temp;
             }
         }
 

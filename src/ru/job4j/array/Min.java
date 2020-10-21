@@ -6,9 +6,7 @@ public class Min {
         int min = Integer.MAX_VALUE;
         for (int index = 0; index < array.length; index++) {
             if (min > array[index]) {
-                int temp = min;
                 min = array[index];
-                array[index] = temp;
             }
         }
 
